@@ -26,7 +26,6 @@ int main() {
                 cout << "Daugiau mokiniu prideti negalima." << endl;
                 continue;
             }
-
             int kiekpazymiu;
 
             cout << "Iveskite mokinio varda (be tarpu): ";
