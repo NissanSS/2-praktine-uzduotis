@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     string vardai[100];
     int pazymiai[100][10] = {};
-    int mokiniuKiekis = 0;
+    int mokiniukiekis = 0;
     int pasirinkimas;
 
     do {
@@ -31,7 +31,7 @@ int main() {
             cout << "Iveskite mokinio varda (be tarpu): ";
             cin >> vardai[mokiniukiekis];
             cout << "Kiek pazymiu tures mokinys? (1-10): ";
-            cin >> kiekPazymiu;
+            cin >> kiekpazymiu;
 
             if (kiekpazymiu < 1 || kiekpazymiu > 10) {
                 cout << "Neteisingas pazymiu kiekis." << endl;
@@ -207,3 +207,4 @@ int main() {
 
     return 0;
 }
+
